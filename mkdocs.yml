@@ -1,0 +1,10 @@
+site_name: TinyRange
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue grey
