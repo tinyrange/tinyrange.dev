@@ -1,0 +1,10 @@
+#!/usr/bin/env tinyrange
+
+version: 1
+builder: alpine@3.21
+commands:
+    - apptainer build /root/mkdocs-material.simg docker://squidfunk/mkdocs-material
+output: /root/mkdocs-material.simg
+packages:
+    - apptainer
+    - ca-certificates
